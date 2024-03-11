@@ -1,4 +1,3 @@
-import './App.css';
 import Hero from '../src/components/Hero/Hero'
 
 

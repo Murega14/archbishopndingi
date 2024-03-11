@@ -1,0 +1,20 @@
+@keyframes glowing {
+    0% {
+      text-shadow: 0 0 10px rgb(232, 10, 47);
+    }
+    50% {
+      text-shadow: 0 0 20px rgb(234, 13, 50);
+    }
+    100% {
+      text-shadow: 0 0 10px rgb(209, 15, 48);
+    }
+  }
+  
+  .glowing-letter {
+    animation: glowing 1s infinite alternate;
+  }
+  
+  .dark .dark\:glowing-letter {
+    animation: glowing 1s infinite alternate;
+  }
+  
