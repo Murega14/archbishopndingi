@@ -3,14 +3,6 @@ import './Navbar.css'
 
 export default function Navbar() {
 
-  React.useEffect(() => {
-  const letters = document.querySelectorAll('.glowing-letter');
-
-  letters.forEach((letter, index) => {
-    letter.style.animationDelay = '${index * 0.1}s';
-
-  });
-}, []);
   return (
     <nav className='bg-white dark:bg-gray-950 fixed w-full z-20 top-0 start-0 border-b border-gray-200'>
       <div className='max-w-screen-xl flex items-center justify-evenly mx-auto p-4'>
