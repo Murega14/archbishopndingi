@@ -33,18 +33,11 @@ export default function Hero() {
           </div>
         </nav>
         <div className="flex justify-between lg:flex-row md:flex-row mt-10 shadow-xl items-start  dark:bg-black rounded-lg overflow-hidden">
-          <aside className="pl-20 w-2/5 m-10 justify-center items-center">
-          <h2 class="text-4xl text-nowrap"><span class="text-green-600 font-semibold">ArchBishop Ndingi</span></h2>
-            <p class=" text-2xl font-bold">
-              Secondary School</p>
-            <p className="text-black dark:text-gray-400  justify-self-start font-bold">
-              For the formation of a whole person
-            </p>
-          </aside>
+        
             <img
               src={logo}
               alt="students in assembly"
-              className="rounded-lg shadow-xl m-4 object-cover w-3/5"
+              className="rounded-xl shadow-black shadow-xl m-4 object-cover w-full"
             ></img>
         </div>
       </div>
